@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n\r\nconst add = _math_js__WEBPACK_IMPORTED_MODULE_0__[\"sum\"](1, 2);\r\nconsole.log(add);\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n\nconst add = _math_js__WEBPACK_IMPORTED_MODULE_0__[\"sum\"](1, 2);\nalert(add);\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mat
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nfunction sum(a, b) { return a + b; }\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/math.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nfunction sum(a, b) { return a + b; }\n\n\n\n\n\n//# sourceURL=webpack:///./src/math.js?");
 
 /***/ })
 
