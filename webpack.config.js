@@ -12,9 +12,10 @@ module.exports = {
     module : {
         rules : [
             {
-                test : /\.js$/ ,
+                test : /\.css$/,
                 use : [
-                    path.resolve('./my-webpack-loader.js')
+                    'style-loader',
+                    'css-loader'
                 ]
             }
         ]
